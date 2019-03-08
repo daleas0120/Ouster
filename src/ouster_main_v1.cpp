@@ -7,7 +7,7 @@
 #include <cstdint>
 
 #elif defined(__linux__) | defined(__APPLE__)
-#include <linux_network_fcns.h>
+#include "linux_network_fcns.h"
 #include <pthread.h>
 
 #include <cstdint>

@@ -24,11 +24,11 @@ message("Platform: " ${PLATFORM})
 if(WIN32)
     set(COMMON_ROOT "D:/Common")
 else()
-    set(COMMON_ROOT "~/Common")
+    set(COMMON_ROOT "/Users/ashleydale/Documents/Github/daleas0120/Common⁩")
 endif()
 
-include(${COMMON_ROOT}/cmake_utils/use_cpp_11.cmake)
-include(${COMMON_ROOT}/cmake_utils/use_sse_avx.cmake)
+#include(${COMMON_ROOT}/cmake_utils/use_cpp_11.cmake)
+#include(${COMMON_ROOT}/cmake_utils/use_sse_avx.cmake)
 
 #include_directories("include")
 
