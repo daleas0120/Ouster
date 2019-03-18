@@ -1,9 +1,9 @@
 # Ouster LIDAR configuration file
 #
 # Parameters should be supplied in the following order:
-# Line 1: LIDAR IP address
+# Line 1: LIDAR IP address (DOES NOT CHANGE)
 # Line 2: LIDAR ports: config port, LIDAR data port, imu port
-# Line 3: receiving IP address
+# Line 3: receiving IP address (CHANGE THIS ONE)
 # Line 4: number of LIDAR captures to average
 # Line 5: save path
 
