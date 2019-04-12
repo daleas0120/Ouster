@@ -199,7 +199,7 @@ bool config_lidar(std::string lidar_ip_address, uint32_t config_port, std::strin
     // get the basic info about the lidar unit
     operation = "get_sensor_info";
     result = send_message(os1_cfg_socket, operation, message);
-    receive_message(os1_cfg_socket, 305, rx_message);
+    receive_message(os1_cfg_socket, 306, rx_message);
     if (rx_message.length() > 0)
     {
         std::vector<std::string> params, params2;
